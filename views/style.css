@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: 'Source Sans Pro', sans-serif;
+    --font-text: 'Barlow', sans-serif;
+    --color: #282c67;
+    --bg_img: url(../assets/a60b1be70b6d4c194b2ed9ecae0a1d35.jpg);
+    /*--xmas: url(https://static.vecteezy.com/system/resources/previews/001/193/200/non_2x/santa-hat-png.png);*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin: auto;
+    background: var(--bg_img) 100vh fixed;
+}
+
+/*
+.xmas {
+    display: flex;
+    margin-top: -86px;
+    margin-right: 160px;
+    transform: rotate(-25deg);
+}
+*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: var(--color);
+    font-family: var(--font-title);
+    font-weight: 900;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: var(--font-text);
+    color: var(--color);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#opac_img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3.5rem;
+    align-items: center;
+    opacity: 0.09;
+}
